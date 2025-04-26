@@ -1701,9 +1701,9 @@ input, select, textarea {
 				width: 100% !important;
 				height: 100% !important;
                 filter: brightness(110%) contrast(100%) saturate(110%);
-                transform: scale(2.1) translateX(2%) translateY(7%); /* Zoom X1.5 */
+                transform: scale(2.1) translateX(4%) translateY(7%); /* Zoom X1.5 */
                 object-fit: cover; /* Remplit le cadre */
-                 object-position: left;    
+                object-position: left;    
 			}
 
 		.image.featured {
@@ -2067,7 +2067,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background:linear-gradient(to bottom, #e0e0e0, #c0c0c0) ;
+			background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
 			/*linear-gradient(to bottom, #e0e0e0, #808080);*/
 		}
 
